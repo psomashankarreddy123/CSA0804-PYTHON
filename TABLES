@@ -1,0 +1,19 @@
+a=int(input("Enter the number :"))
+b=int(input("enter the mul number :"))
+for i in range(a):
+    print(i*b)
+
+OUTPUT:-
+Enter the number :10
+enter the mul number :2
+0
+2
+4
+6
+8
+1
+0
+12
+14
+16
+18
