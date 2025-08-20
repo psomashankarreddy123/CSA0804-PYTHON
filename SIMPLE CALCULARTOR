@@ -1,1 +1,26 @@
+a=10
+b=20
+n=int(input("enter the range :"))
+operator=("add","sub","mul","div")
+for i in range(n):
+  user=input("enter the operation :")
+  if user=="add":
+     print(a+b)
+  elif user=="sub":
+     print(a-b)
+  elif user=="mul":
+     print(a*b)
+  elif user =="div":
+      print(a/b)
+  else:
+    print("please select the operation")
+
+OUTPUT:-
+
+enter the range :2
+enter the operation :add
+30
+enter the operation :sub
+-10
+
 
