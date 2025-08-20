@@ -1,1 +1,16 @@
+a=int(input("enter the 1st number :"))
+b=int(input("enter the 2nd number :"))
+c=int(input("enter the 3rd number :"))
+if a>b&a>c:
+    print(a,"is greater than" ,b ,"and",c)
+elif b>a&b>c:
+    print(b,"is greater than" ,a ,"and" ,c)
+else:
+    print(c,"is greater than" ,a ,"and" ,b)
 
+
+OUTPUT:-
+enter the 1st number :99
+enter the 2nd number :54
+enter the 3rd number :12
+99 is greater than 54 and 12
