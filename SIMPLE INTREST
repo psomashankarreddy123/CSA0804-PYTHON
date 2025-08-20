@@ -1,1 +1,18 @@
+P =int(input("Enter the principal amount :")) 
+R =int(input("Enter the rate of intrest :"))    
+T=int(input("Enter the time in years : "))      
 
+SI = (P * R * T) / 100
+Total = P + SI
+
+print("Simple Interest:", SI)
+print("Total Amount:", Total)'
+
+
+OUTPUT:-
+
+Enter the principal amount :10000
+Enter the rate of intrest :5
+Enter the time in years : 3
+Simple Interest: 1500.0
+Total Amount: 11500.0
